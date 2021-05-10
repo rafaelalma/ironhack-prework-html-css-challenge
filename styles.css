@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-LightItalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #EEEEEE; /* Gray */
+  overflow: hidden;
+}
+
+.title {
+  padding: 50px;
+  margin: 10px 20px;
+  text-align: left;
+}
+
+.content-container {
+  width: 650px;
+  float: right;
+}
+
+.sidebar-container {
+  width: 250px;
+  float: left;
+}
+
+.content {
+  padding: 20px;
+  padding-right: 100px;
+  margin: 10px 20px 10px 10px;
+}
+
+.content-alt {
+  padding-right: 20px;
+  padding-left: 100px;
+}
+
+.sidebar {
+  padding: 20px 20px 10px 20px;
+  margin: 10px 10px 10px 20px;
+}
+
+.title,
+.content,
+.sidebar {
+  background-color: #FFFFFF; /* White */
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+body {
+  font-size: 14px;
+  color: #414141; /* Dark Gray */
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.title p {
+  font-size: 18px;
+  padding: 0 60px;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar li {
+  border-bottom: 1px solid #414141;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #00CED1;
+}
+
+.title h1 {
+  color: #00CED1;
+}
+
+.title em {
+  color: #414141;
+}
+
+section, article, aside, footer, header, nav {
+  display: block;
+}
