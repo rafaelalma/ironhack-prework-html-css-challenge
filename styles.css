@@ -26,9 +26,9 @@
 }
 
 .page {
-  width: 900px;
+  width: 960px;
   margin: 0 auto;
-  background-color: #EEEEEE; /* Gray */
+  background-color: #EEEEEE; /* Grey */
   overflow: hidden;
 }
 
@@ -39,12 +39,12 @@
 }
 
 .content-container {
-  width: 650px;
+  width: 700px;
   float: right;
 }
 
 .sidebar-container {
-  width: 250px;
+  width: 260px;
   float: left;
 }
 
@@ -69,6 +69,7 @@
 .sidebar {
   background-color: #FFFFFF; /* White */
   border-radius: 10px;
+  box-shadow: 5px 5px 5px #D3D3D3; /* Light Grey */
 }
 
 body {
@@ -85,8 +86,8 @@ strong {
 }
 
 body {
-  font-size: 14px;
-  color: #414141; /* Dark Gray */
+  font-size: 16px;
+  color: #414141; /* Dark Grey */
 }
 
 p {
@@ -131,7 +132,7 @@ li {
 }
 
 .sidebar li {
-  border-bottom: 1px solid #414141;
+  border-bottom: 1px dashed #D3D3D3;
 }
 
 a:link,
